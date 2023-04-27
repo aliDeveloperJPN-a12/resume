@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+    font-family: "yekan";
+    src: url("./../public/fonts/IRANYekanBold.ttf");
+}
+@font-face {
+    font-family: "yekanExtraBlack";
+    src: url("./../public/fonts/IRANYekanExtraBlack.ttf");
+}
+@font-face {
+    font-family: "ykanExtraBold";
+    src: url("./../public/fonts/IRANYekanExtraBold.ttf");
+}
+@font-face {
+    font-family: "yekanMedium";
+    src: url("./../public/fonts/IRANYekanMedium.ttf");
+}
+@font-face {
+    font-family: "yekanRegular";
+    src: url("./../public/fonts/IRANYekanRegular.ttf");
+}
+@font-face {
+    font-family: "yekanLight";
+    src: url("./../public/fonts/IRANYekanLight.ttf");
+}
+
+
+@layer base {
+    *{
+        -webkit-tap-highlight-color: transparent;
+    }
+    body {
+        direction: rtl;
+        background: #f3f3f3;
+        overflow-x: hidden;
+    }
+}
+
+@layer components {
+    body {
+        @apply dark:bg-[#001529];
+    }
+    .container_contact_media {
+        @apply w-9 h-9 cursor-pointer shadow-sm rounded-full flex justify-center items-center bg-purple-500 text-white;
+    }
+    .background_image {
+        @apply;
+    }
+}

@@ -1,4 +1,4 @@
-wtach this website online : ( https://resume-duzbbkzjq-alideveloperjpn-a12.vercel.app/ )
+wtach this website online : ( https://resume-qxj64a0lb-alideveloperjpn-a12.vercel.app/ )
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
